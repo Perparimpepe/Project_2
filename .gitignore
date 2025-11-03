@@ -4,8 +4,6 @@ node_modules/
 # Environment variables
 .env
 
-# Local configuration files
-config/*.js
 
 # Logs
 logs/
