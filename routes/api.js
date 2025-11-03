@@ -12,16 +12,7 @@ router.get('/getall', async (req, res) => {
   }
 });
 
-// GET /api/:id
-router.get('/:id', async (req, res) => {
-  try {
-    const message = await Message.findById(req.params.id);
-    if (!message) return res.status(404).json({ error: 'Not found' });
-    res.json(message);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
-});
+
 
 // POST /api/add
 router.post('/add', async (req, res) => {
@@ -49,6 +40,17 @@ router.delete('/delete/:id', async (req, res) => {
   try {
     await Message.findByIdAndDelete(req.params.id);
     res.json({ message: 'Deleted successfully' });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// GET /api/:id
+router.get('/:id', async (req, res) => {
+  try {
+    const message = await Message.findById(req.params.id);
+    if (!message) return res.status(404).json({ error: 'Not found' });
+    res.json(message);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
