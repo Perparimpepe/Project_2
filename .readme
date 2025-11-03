@@ -1,2 +1,19 @@
 Fullstack Project 2. 
-This is for API
+I've made database in MONGODB. I have tried API's in POSTMAN before and after publishing API's in render.
+
+Render address: https://project-2-269q.onrender.com
+
+Technologies Used
+Node.js – Backend runtime
+Express.js – Web framework for building RESTful APIs
+MongoDB & Mongoose – Database and ODM
+Render – Hosting the live API
+Postman – Testing API endpoints
+
+API Endpoints
+Method	    Endpoint	            Description
+GET	        /api/getall	            Get all messages
+GET	        /api/:id	            Get a specific message by ID
+POST	    /api/add	            Add a new message
+PUT	        /api/update/:id	        Update a message by ID
+DELETE	    /api/delete/:id	        Delete a message by ID
