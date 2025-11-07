@@ -21,7 +21,7 @@ app.use('/api', apiRoutes);
 
 
 mongoose.connection.once('open', () => {
-  console.log('✅ MongoDB connection is open');
+  console.log('MongoDB connection is open');
   app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
 });
 
