@@ -18,7 +18,7 @@ POST	    /api/add	            Add a new message
 PUT	        /api/update/:id	        Update a message by ID
 DELETE	    /api/delete/:id	        Delete a message by ID
 
-My project is a full stack Node.js application that provides a REST API for managing da-ta stored in MongoDB. I learned how to create and connect a backend server to a cloud database and make it accessible through API routes.
+My project is a full stack Node.js application that provides a REST API for managing data stored in MongoDB. I learned how to create and connect a backend server to a cloud database and make it accessible through API routes.
 
 I have used the following technologies and tools:
 •	Node.js and Express.js for building the backend server
@@ -27,9 +27,9 @@ I have used the following technologies and tools:
 •	Render for publishing and hosting the project online
 The application handles five main API routes (GET, POST, PUT, DELETE) and sends responses as JSON.
 
-My project aim is to create a simple and reliable REST API where users can add, read, update, and delete messages.
-The project focuses on backend logic, so no visual frontend was required. I designed the API to be clear, well-structured, and easy to test with tools like Postman.
+My project aim is to create a simple and reliable REST API where users can add, read, update and delete messages.
+The project focuses on backend logic, so no visual frontend was required. I designed the API to be clear, well-structured and easy to test with tools like Postman.
 
-I succeeded in connecting MongoDB to my Node.js server and deploying the project suc-cessfully to Render.
-I could do better in improving the frontend part and adding more validation for user in-put.
-I see that I have learned how to use Express routes, Mongoose models, and environ-ment variables securely
+I succeeded in connecting MongoDB to my Node.js server and deploying the project successfully to Render.
+I could do better in improving the frontend part and adding more validation for user input.
+I see that I have learned how to use Express routes, Mongoose models and environment variables securely
